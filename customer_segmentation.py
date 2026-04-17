@@ -40,3 +40,14 @@ plt.savefig("segment_chart.png")
 df.groupby("Segment")["AnnualIncome"].mean().plot(kind="bar")
 plt.title("Average Income by Segment")
 plt.savefig("income_segment.png")
+def recommend_action(segment):
+    if segment == "High Value":
+        return "Give premium offers and loyalty rewards"
+    elif segment == "Medium Value":
+        return "Give discounts and bundle offers"
+    else:
+        return "Target with ads and basic offers"
+
+df["Recommendation"] = df["Segment"].apply(recommend_action)
+
+print(df[["CustomerID", "Segment", "Recommendation"]])
