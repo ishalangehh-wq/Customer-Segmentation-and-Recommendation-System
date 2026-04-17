@@ -23,3 +23,10 @@ This project analyzes customer data and segments customers based on their income
 
 ## 🎯 Business Use
 This helps companies target customers with personalized marketing strategies.
+## 🎯 Recommendation System
+
+Based on customer segmentation:
+
+- High Value → Premium offers & loyalty rewards
+- Medium Value → Discounts & bundle offers
+- Low Value → Ads & basic campaigns
