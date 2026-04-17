@@ -29,3 +29,14 @@ print("Segment Count:\n", df["Segment"].value_counts())
 df.to_csv("data.csv", index=False)
 
 print("\nFinal Data:\n", df)
+import matplotlib.pyplot as plt
+
+# Segment count plot
+df["Segment"].value_counts().plot(kind="bar")
+plt.title("Customer Segmentation")
+plt.xlabel("Segment")
+plt.ylabel("Count")
+plt.savefig("segment_chart.png")
+df.groupby("Segment")["AnnualIncome"].mean().plot(kind="bar")
+plt.title("Average Income by Segment")
+plt.savefig("income_segment.png")
