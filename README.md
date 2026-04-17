@@ -1,32 +1,37 @@
-# Customer Segmentation Project
+# Customer Segmentation Project  
 
-## 📊 Overview
-This project analyzes customer data and segments customers based on their income and spending behavior.
+## 📊 Overview  
+This project analyzes customer data and segments customers based on their income and spending behavior.  
 
-## 🛠 Tools Used
-- Python (Pandas)
-- Matplotlib
+## 🛠 Tools Used  
+- Python (Pandas)  
+- Matplotlib  
 
-## 🔍 Analysis Performed
-- Created customer dataset
-- Segmented customers into High, Medium, and Low value
-- Visualized customer segments
+## 🔍 Analysis Performed  
+- Created customer dataset  
+- Segmented customers into High, Medium, and Low value  
+- Visualized customer segments  
 
-## 📊 Output
+## 📊 Output  
 
+### 🔹 Customer Segmentation
 ![Segmentation](images/segment_chart.png)
 
-## 🧠 Insights
-- High value customers have high income and high spending score
-- Medium customers show moderate behavior
-- Low value customers have low engagement
+### 🔹 Income by Segment
+![Income](images/income_segment.png)
 
-## 🎯 Business Use
-This helps companies target customers with personalized marketing strategies.
-## 🎯 Recommendation System
+## 🧠 Insights  
+- High value customers have high income and high spending score  
+- Medium customers show moderate behavior  
+- Low value customers have low engagement  
 
-Based on customer segmentation:
+## 🎯 Business Use  
+This helps companies target customers with personalized marketing strategies.  
 
-- High Value → Premium offers & loyalty rewards
-- Medium Value → Discounts & bundle offers
-- Low Value → Ads & basic campaigns
+## 🎯 Recommendation System  
+
+Based on customer segmentation:  
+
+- High Value → Premium offers & loyalty rewards  
+- Medium Value → Discounts & bundle offers  
+- Low Value → Ads & basic campaigns  
