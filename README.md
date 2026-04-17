@@ -15,10 +15,10 @@ This project analyzes customer data and segments customers based on their income
 ## 📊 Output  
 
 ### 🔹 Customer Segmentation
-![Segmentation](images/segment_chart.png)
+![Segmentation](https://github.com/ishalangehh-wq/Customer-Segmentation-and-Recommendation-System/blob/main/income_segment.png?raw=true)
 
 ### 🔹 Income by Segment
-![Income](images/income_segment.png)
+![Income](https://github.com/ishalangehh-wq/Customer-Segmentation-and-Recommendation-System/blob/main/income_segment.png?raw=true)
 
 ## 🧠 Insights  
 - High value customers have high income and high spending score  
